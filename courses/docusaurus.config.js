@@ -9,7 +9,7 @@ const config = {
   title: 'Vives Courses',
   tagline: 'Some text here...',
   url: 'https://KarimGabsi.github.io/',
-  baseUrl: '/vives/',
+  baseUrl: '/courses/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
