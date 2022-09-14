@@ -9,13 +9,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Node is required for npm
-      - name: Set up Node
-        uses: actions/setup-node@v2
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Node.js install
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - uses: actions/checkout@master
-      - uses: redkubes/docusaurus-deploy-action@v1
+      - name: running redkubes docusaurus script
+        uses: redkubes/docusaurus-deploy-action@v1
         with:
           source-folder: courses
           git-user: KarimGabsi
