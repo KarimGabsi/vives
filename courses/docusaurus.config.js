@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicons.ico',
   projectName: 'karimgabsi.github.io/vives',
   organizationName: 'karimgabsi',
   trailingSlash: false,
