@@ -8,16 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Vives Courses',
   tagline: 'Some text here...',
-  url: 'https://karimgabsi.github.io/',
-  baseUrl: '/',
+  url: 'https://KarimGabsi.github.io/',
+  baseUrl: '/vives/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'karimgabsi', // Usually your GitHub org/user name.
-  projectName: 'vives', // Usually your repo name.
+  organizationName: 'KarimGabsi', // Usually your GitHub org/user name.
+  projectName: 'KarimGabsi.github.io', // Usually your repo name.
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
