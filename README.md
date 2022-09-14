@@ -8,7 +8,8 @@ https://docusaurus.io/docs/installation
 
 ## Build
 1) npm run build
-npm
+
+
 ## Run
 1) cd my-website
    (cd courses)
