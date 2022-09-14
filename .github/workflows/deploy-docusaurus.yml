@@ -27,12 +27,12 @@ jobs:
         run: |
           cd courses
           npm install 
-          npm run start
+          npm run build
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: gh-pages
+          target_branch: main
           build_dir: courses/build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
