@@ -19,7 +19,10 @@ const config = {
   organizationName: 'karimgabsi', // Usually your GitHub org/user name.
   projectName: 'karimgabsi.github.io', // Usually your repo name.
   trailingSlash: false,
-
+  USE_SSH: true,
+  GIT_USER: 'KarimGabsi',
+  GIT_PASS: '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',
+  CURRENT_BRANCH: 'main',
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
