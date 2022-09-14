@@ -8,12 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Vives Courses',
   tagline: 'Some text here...',
-  url: 'https://karimgabsi.github.io',
+  url: 'https://karimgabsi.github.io/vives',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  projectName: 'karimgabsi.github.io',
+  projectName: 'karimgabsi.github.io/vives',
   organizationName: 'karimgabsi',
   trailingSlash: false,
 
