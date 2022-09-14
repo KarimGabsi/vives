@@ -4,6 +4,7 @@ https://docusaurus.io/docs/installation
 ## Install
 1) Node.js
 2) npx create-docusaurus@latest my-website classic
+
    (npx create-docusaurus@latest courses classic)
 
 ## Build
