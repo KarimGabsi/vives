@@ -27,7 +27,7 @@ jobs:
         run: |
           cd courses
           npm install 
-          npm run build
+          npm run start
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
