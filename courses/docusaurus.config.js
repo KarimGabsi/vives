@@ -8,21 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Vives Courses',
   tagline: 'Some text here...',
-  url: 'https://karimgabsi.github.io/',
+  url: 'https://karimgabsi.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'karimgabsi', // Usually your GitHub org/user name.
-  projectName: 'karimgabsi.github.io', // Usually your repo name.
+  projectName: 'karimgabsi.github.io',
+  organizationName: 'karimgabsi',
   trailingSlash: false,
-  USE_SSH: true,
-  GIT_USER: 'KarimGabsi',
-  GIT_PASS: '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',
-  CURRENT_BRANCH: 'main',
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
