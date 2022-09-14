@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '16.x'
       - uses: actions/checkout@master
-      - uses: redkubes/docusaurus-deploy-action@v1
+      - uses: redkubes/docusaurus-deploy-action@v2
         with:
           source-folder: courses
           git-user: KarimGabsi
