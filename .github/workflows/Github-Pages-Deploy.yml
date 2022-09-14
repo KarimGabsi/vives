@@ -13,7 +13,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: 16.x
       - uses: actions/checkout@master
       - uses: redkubes/docusaurus-deploy-action@v1
         with:
