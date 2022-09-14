@@ -14,11 +14,17 @@ jobs:
       - name: Node.js install
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-      - name: running redkubes docusaurus script
-        uses: redkubes/docusaurus-deploy-action@v1
+          node-version: 17
+      - name: Build Docusaurus website
+        run: |
+          cd website
+          npm install 
+          npm run build
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          source-folder: courses
-          git-user: KarimGabsi
-          git-password: ${{ secrets.TOKEN }}
-          deployment-branch: main
+          target_branch: main
+          build_dir: courses/build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
