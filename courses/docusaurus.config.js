@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vives Courses',
-  tagline: 'Some text here...',
+  tagline: '',
   url: 'https://karimgabsi.github.io/vives',
   baseUrl: '/vives/',
   onBrokenLinks: 'throw',
@@ -31,11 +31,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: 'docs',
+          path: 'docs',
+          sidebarPath: require.resolve('./sidebars/sidebars.js'),
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'],
         },
         blog: {
           showReadingTime: true,
@@ -50,22 +50,54 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+      [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-python',
+        path: 'docs-python',
+        routeBasePath: 'docs-python',
+        sidebarPath: require.resolve('./sidebars/sidebars-python.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-cloud-for-ai',
+        path: 'docs-cloud-for-ai',
+        routeBasePath: 'docs-cloud-for-ai',
+        sidebarPath: require.resolve('./sidebars/sidebars-cloud-for-ai.js'),
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Vives Courses',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/Intro',
             position: 'left',
+            activeBaseRegex: '/docs/',
             label: 'Tutorial',
+          },
+          {
+            to: '/docs-python/Intro',
+            position: 'left',
+            activeBaseRegex: '/docs-python/',
+            label: 'Python',
+          },
+          {
+            to: '/docs-cloud-for-ai/Intro',
+            position: 'left',
+            activeBaseRegex: '/docs-cloud-for-ai/',
+            label: 'Cloud for AI',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -118,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Karim Gabsi`,
       },
       prism: {
         theme: lightCodeTheme,
