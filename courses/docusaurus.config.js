@@ -63,6 +63,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'docs-intro-to-ai',
+        path: 'docs-intro-to-ai',
+        routeBasePath: 'docs-intro-to-ai',
+        sidebarPath: require.resolve('./sidebars/sidebars-intro-to-ai.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'docs-cloud-for-ai',
         path: 'docs-cloud-for-ai',
         routeBasePath: 'docs-cloud-for-ai',
@@ -82,16 +91,16 @@ const config = {
         },
         items: [
           {
-            to: '/docs/Intro',
-            position: 'left',
-            activeBaseRegex: '/docs/',
-            label: 'Tutorial',
-          },
-          {
             to: '/docs-python/Intro',
             position: 'left',
             activeBaseRegex: '/docs-python/',
             label: 'Python',
+          },
+          {
+            to: '/docs-intro-to-ai/Intro',
+            position: 'left',
+            activeBaseRegex: '/docs-intro-to-ai/',
+            label: 'Introduction to AI',
           },
           {
             to: '/docs-cloud-for-ai/Intro',
@@ -153,8 +162,9 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Karim Gabsi`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
+        lightCodeTheme: lightCodeTheme,
       },
     }),
 };
