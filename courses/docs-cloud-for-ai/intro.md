@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro 2
+# Installation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+1. Download & Install [Python](https://www.python.org/downloads/) (version 3.10.7 or above)
 
-## Getting Started
+2. Download & Install [PyCharm Pro](https://www.jetbrains.com/pycharm/):
 
-Get started by **creating a new site**.
+    - As a student you are eligable for and education license, so sign up on jetbrains and request one.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+3. Download & Install [Docker Desktop](https://www.docker.com/):
 
-### What you'll need
+    - If you encounter the error **WSL2 installation is incomplete** than download and install the latest package: [wsl_update_x64](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+    - Restart Docker Desktop
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+4. Make an account on [Docker Hub](https://hub.docker.com/)
 
-## Generate a new site
+   - Log in with your account on **Docker Desktop**
 
-Generate a new Docusaurus site using the **classic template**.
+5. Make an account on [Github](https://www.github.com/):
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+   - Create a private repository named: **cloud-for-ai**
+   - Open **PyCharm** and authorize jetbains to access your github repositories. (use VCS & install Git if required.)

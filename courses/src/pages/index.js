@@ -34,7 +34,8 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       {/*<HomepageHeader />*/}
       <main>
-        <HomepageFeatures />
+          <img src="img/Vives_Logo.JPG"/>
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );
