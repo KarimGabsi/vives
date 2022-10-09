@@ -1,0 +1,36 @@
+Step 1:
+Create a new Python project (3.10) -> Use a venv (virtual environment)
+
+Step 2 (Terminal):
+Install flask
+COMMAND: pip install flask
+
+Step 3:
+Create/Edit main.py to create a simple flask site
+
+Step 4 (Terminal):
+Generate requirements.txt
+COMMANDS:
+    cd DockerProject
+    pip freeze > requirements.txt
+
+Step 5:
+Create a 'Dockerfile'
+
+Step 6 (Terminal):
+COMMANDS:
+    cd DockerProject
+    docker built -t testimage .
+
+Step 7 (Terminal):
+Verify
+COMMANDS:
+    docker images --all
+Or open Docker Deskopt and check images
+
+Step 8 (Terminal):
+    docker run --name testcontainer -p 5000:5000 testimage
+
+STEP 9 (Terminal):
+Using a Volume
+    docker run -it --name=testvolume1 -p 5000:5000 --mount source=TestVolume,destination=/TestVolume revelare/autobuildtest

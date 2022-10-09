@@ -1,0 +1,7 @@
+1) cd Docker API
+2) Docker swarm init
+2.b) Docker swarm leave --force
+3) docker stack deploy --compose-file docker-stack.yml
+4) docker stack services dockerapi
+5) docker stack rm dockerapi
+6) docker service ls
