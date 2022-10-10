@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vives.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vives.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/DockerAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/DockerAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/DockerContainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/DockerContainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/docker-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/docker-stack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/main_simplecontainer_klassikaal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/main_simplecontainer_klassikaal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/main_simplecontainers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/main_simplecontainers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerAPI/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerAPI/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/Docker Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/Docker Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/DockerfileVolume" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/DockerfileVolume" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/mainVolume.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/mainVolume.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/DockerProject/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DockerProject/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/Epsagon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Epsagon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/cpu_measure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cloud for AI/Epsagon/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1c9d8aca-93f1-4586-9c64-6e193ddcef47" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FurDia9gP40K8mZ3PrVKat6rq9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Karim Gabsi/PycharmProjects/vives/material/CloudForAI/Epsagon",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="cpu_measure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Epsagon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cpu_measure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Epsagon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cpu_measure" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="" />
+      <created>1665352692523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665352692523</updated>
+      <workItem from="1665352703539" duration="10000" />
+      <workItem from="1665352788110" duration="10907000" />
+      <workItem from="1665396474739" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Epsagon$cpu_measure.coverage" NAME="cpu_measure Coverage Results" MODIFIED="1665364452378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Epsagon$main.coverage" NAME="main Coverage Results" MODIFIED="1665364943325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
