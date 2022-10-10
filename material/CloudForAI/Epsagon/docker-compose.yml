@@ -12,12 +12,13 @@ services:
     container_name: epsagon_container
     build:
       dockerfile: Dockerfile
+    pull_policy: build
     image: epsagon_dev:latest
     ports:
-      - 5001:5000
+      - 5000:5000
     volumes:
-      - TestVolume:/app
+      - EpsagonVolume:/app
 volumes:
-  TestVolume:
+  EpsagonVolume:
     external: false
-    name: TestVolume
+    name: EpsagonVolume

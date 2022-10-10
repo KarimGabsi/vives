@@ -39,9 +39,12 @@ def epsagon_app():
 def main():
     proc = None
     try:
-        proc = subprocess.Popen('python mem_measure.py')
-        epsagon_app()
+        # proc = subprocess.Popen('python mem_measure.py')
 
+        proc = subprocess.Popen(['python', 'mem_measure.py'], shell=False, stdout=subprocess.PIPE,
+                                stderr=subprocess.STDOUT)
+        print("Hello world!", flush=True)
+        epsagon_app()
     except Exception as e:
         epsagon.error(e)
         print(e)
