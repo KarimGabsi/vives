@@ -12,7 +12,6 @@ https://docusaurus.io/docs/installation
 
 
 ## Run
-1) cd my-website
-   (cd courses)
+1) cd courses
 2) npm run start
 
