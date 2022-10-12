@@ -30,7 +30,7 @@ def main():
             epsagon.label(gpu_info, gpu_load) # trace
 
         print(f"[cpu usage: {cpu_usage} %] [memory: {memory_gb} GB] {gpus}")
-
+        print('Epsagon trace URL:', epsagon.get_trace_url())
         # limit amount of traces.
         time.sleep(5)
 

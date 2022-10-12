@@ -1,26 +1,29 @@
 version: "3.9"
 services:
   sdk:
-    container_name: epsagon_container
+    container_name: epsagon_sdk
     build:
-      dockerfile: Dockerfile_util
+      dockerfile: Dockerfile_sdk
     pull_policy: build
-    image: epsagon_dev:latest
+    image: epsagon_sdk_image:latest
     ports:
       - 5000:5000
-    volumes:
-      - EpsagonVolume:/app
+#    volumes:
+#      - EpsagonVolume:/app
   util:
-    container_name: epsagon_container
+    container_name: epsagon_util
     build:
       dockerfile: Dockerfile_util
     pull_policy: build
-    image: epsagon_dev:latest
+    image: epsagon_util_image:latest
     ports:
-      - 5000:5000
-    volumes:
-      - EpsagonVolume:/app
-volumes:
-  EpsagonVolume:
-    external: false
-    name: EpsagonVolume
+      - 5001:5000
+#    volumes:
+#      - EpsagonVolume:/app
+#volumes:
+#  EpsagonUtilVolume:
+#    external: false
+#    name: EpsagonUtilVolume
+#  EpsagonSDKVolume:
+#    external: false
+#    name: EpsagonUtilVolume

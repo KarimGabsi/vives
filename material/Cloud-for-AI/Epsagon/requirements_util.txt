@@ -9,12 +9,12 @@ epsagon==1.81.0
 requests==2.28.1
 Flask==2.2.2
 psutil==5.9.2
-pywin32==304
+# pywin32==304
 wrapt==1.14.1
 urllib3==1.26.12
 six==1.16.0
 tzlocal==4.2
 python-dateutil==2.8.2
 setuptools==63.2.0
-docker==6.0.0
+# docker==6.0.0
 GPUtil==1.4.0
