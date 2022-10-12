@@ -1,17 +1,19 @@
 version: "3.9"
 services:
-#  onlinebuild:
-#    container_name: onlinewithvolume
-#    image: revelare/autobuildtest:latest
-#    pull_policy: always
-#    ports:
-#      - 5000:5000
-#    volumes:
-#      - TestVolume:/app
-  localbuild:
+  sdk:
     container_name: epsagon_container
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile_util
+    pull_policy: build
+    image: epsagon_dev:latest
+    ports:
+      - 5000:5000
+    volumes:
+      - EpsagonVolume:/app
+  util:
+    container_name: epsagon_container
+    build:
+      dockerfile: Dockerfile_util
     pull_policy: build
     image: epsagon_dev:latest
     ports:
