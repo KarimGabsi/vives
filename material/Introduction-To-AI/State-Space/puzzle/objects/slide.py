@@ -10,21 +10,21 @@ class Slide(Move):
         self.drow = drow
         self.dcol = dcol
 
-    # checkt of slide geldig is, rekening houdend met de randen van de puzzle
+    # checks if slide is valid, taking into account the edges of the puzzle
     @abstractmethod
     def is_valid(self):
         pass
 
-    # berekent de nieuwe positiematrix
+    # calculates the new position matrix
     def new_matrix(self):
         if self.is_valid():
-            irow1, icol1 = self.state.empty  # (irow, icol) van lege vakje
-            irow2, icol2 = irow1 + self.drow, icol1 + self.dcol  # (irow, icol) van vakje waarmee gewisseld wordt
+            irow1, icol1 = self.state.empty  # (irow, icol) of empty cell
+            irow2, icol2 = irow1 + self.drow, icol1 + self.dcol  # (irow, icol) of square being switched
             new_matrix = self.state.matrix.copy()
             new_matrix[irow1, icol1], new_matrix[irow2, icol2] = new_matrix[irow2, icol2], new_matrix[irow1, icol1]
             return new_matrix
 
-            # string representatie object
+            # string representation object
 
     def __repr__(self):
         if self.dcol == -1:
