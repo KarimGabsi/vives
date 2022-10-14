@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="update cloud for ai">
-      <change afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/3. container measurements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/4. docker measurements.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/2. epsagon SDK for python.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/2. epsagon SDK for python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile_sdk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_sdk.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_sdk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements_sdk.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
