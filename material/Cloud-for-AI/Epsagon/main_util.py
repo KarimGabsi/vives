@@ -41,7 +41,7 @@ def main():
     try:
         # proc = subprocess.Popen('python mem_measure.py')
 
-        proc = subprocess.Popen(['python', 'mem_measure.py'], shell=False, stdout=subprocess.PIPE,
+        proc = subprocess.Popen(['python', 'util_measure.py'], shell=False, stdout=subprocess.PIPE,
                                 stderr=subprocess.STDOUT)
         print("Hello world!", flush=True)
         epsagon_app()

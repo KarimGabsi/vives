@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/requirements_sdk.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements_util.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Epsagon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Epsagon.iml" afterDir="false" />
+    <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="update cloud for ai">
+      <change afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/3. container measurements.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/4. docker measurements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/2. epsagon SDK for python.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/2. epsagon SDK for python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile_sdk" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile_sdk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile_util" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile_util" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile_sdk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_sdk.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_sdk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_measure.py" beforeDir="false" afterPath="$PROJECT_DIR$/util_measure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements_sdk.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Karim Gabsi/PycharmProjects/vives/material/Cloud-for-AI/Epsagon",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Karim Gabsi/PycharmProjects/vives/material/Cloud-for-AI/Epsagon&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Karim Gabsi\PycharmProjects\vives\material\Cloud-for-AI\Epsagon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_sdk">
+  <component name="RunManager" selected="Python.util_measure">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Epsagon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,12 +110,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
+    <configuration name="util_measure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Epsagon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util_measure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Dockerfile_util" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
@@ -150,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.util_measure" />
         <item itemvalue="Python.main_sdk" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile_util" />
         <item itemvalue="Docker.docker-compose.yml.localbuild: Compose Deployment" />
-        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +183,8 @@
       <workItem from="1665352788110" duration="10907000" />
       <workItem from="1665396474739" duration="1934000" />
       <workItem from="1665404823902" duration="4111000" />
-      <workItem from="1665600938292" duration="2626000" />
+      <workItem from="1665600938292" duration="3179000" />
+      <workItem from="1665648612585" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1665397104992</created>
@@ -210,8 +224,9 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Epsagon$main_sdk.coverage" NAME="main_sdk Coverage Results" MODIFIED="1665603683564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Epsagon$main_sdk.coverage" NAME="main_sdk Coverage Results" MODIFIED="1665784469423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Epsagon$cpu_measure.coverage" NAME="cpu_measure Coverage Results" MODIFIED="1665364452378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Epsagon$util_measure.coverage" NAME="util_measure Coverage Results" MODIFIED="1665784664410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Epsagon$main.coverage" NAME="main Coverage Results" MODIFIED="1665397282235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
