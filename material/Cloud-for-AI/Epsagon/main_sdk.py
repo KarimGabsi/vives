@@ -19,7 +19,7 @@ class obj(object):
             else:
                 setattr(self, k, obj(v) if isinstance(v, dict) else v)
 
-def calculate_cpu_usage(stats):
+def measure_VM_cpu(stats):
     try:
         metrics = obj(stats)
         cpuDelta = metrics.cpu_stats.cpu_usage.total_usage - metrics.precpu_stats.cpu_usage.total_usage
@@ -28,17 +28,32 @@ def calculate_cpu_usage(stats):
     except Exception as e:
         print(e)
 
-def calculate_mem_usage(stats):
-    #exercise
+def measure_VM_mem(stats):
+    # measure memory usage from container
     pass
 
-def calculate_disk_usage(stats):
+def measure_VM_disk(stats):
+    # measure disk usage from container
     pass
 
-def calcluate_network_usage(stats):
+def measure_VM_network(stats):
+    # measure network usage from container
     pass
 
-def calculate_volume_usage(stats):
+def measure_VM_volumes(client: DockerClient):
+    # measure volumes from Docker Engine
+    pass
+
+def measure_HOST_GPUs():
+    # measure HOST Graphic Processing Units
+    pass
+
+def measure_HOST_CPUs():
+    # measure cpu usage from host computer
+    pass
+
+def measure_HOST_MEM():
+    # measure memory usage from host computer
     pass
 
 @epsagon.python_wrapper
@@ -52,7 +67,7 @@ def analyze_containers(client: DockerClient):
             # pp.pprint(stats)
             cpu_usage = 0
             if ctn.status == "running":
-                cpu_usage = calculate_cpu_usage(stats)
+                cpu_usage = measure_VM_cpu(stats)
 
             container = f"{ctn.name} - {ctn.id}"
             epsagon.label(container, cpu_usage)
