@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="update cloud for ai">
-      <change beforePath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/3. container measurements.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/3. container measurements.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_sdk.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_sdk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +177,7 @@
       <workItem from="1665404823902" duration="4111000" />
       <workItem from="1665600938292" duration="3179000" />
       <workItem from="1665648612585" duration="4398000" />
-      <workItem from="1665990892163" duration="527000" />
+      <workItem from="1665990892163" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1665397104992</created>
