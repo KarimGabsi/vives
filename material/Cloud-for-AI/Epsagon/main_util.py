@@ -26,7 +26,7 @@ def index():
         print('Epsagon trace URL:', epsagon.get_trace_url())
         epsagon.error(Exception("Double Trouble!"))
 
-    mem_available = str(psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+    mem_available = psutil.virtual_memory().available >> 20
     return f"Counter: {counter} [CPU: {mem_available} %]"
 
 
