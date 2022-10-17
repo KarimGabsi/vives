@@ -27,7 +27,7 @@ def index():
         epsagon.error(Exception("Double Trouble!"))
 
     mem_available = psutil.virtual_memory().available >> 20
-    return f"Counter: {counter} [CPU: {mem_available} %]"
+    return f"Counter: {counter} [MEM: {mem_available} MB]"
 
 
 @epsagon.measure
