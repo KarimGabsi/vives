@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4199939d-b95e-45ba-ac88-55b196be2453" name="Changes" comment="update cloud for ai">
-      <change beforePath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/4. docker measurements.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/4. docker measurements.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../courses/docs-cloud-for-ai/Chapter 4 - Epsagon/5. python to executable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_sdk_exe_maker.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Epsagon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Epsagon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,11 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="1c9d8aca-93f1-4586-9c64-6e193ddcef47" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Python310/Lib/site-packages/docker/api/container.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Python310/Lib/site-packages/docker/models/containers.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Python310/Lib/site-packages/docker/models/resource.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,20 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Karim Gabsi/PycharmProjects/vives/material/Cloud-for-AI/Epsagon&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Karim Gabsi/PycharmProjects/vives/material/Cloud-for-AI/Epsagon/venv",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Karim Gabsi\PycharmProjects\vives\material\Cloud-for-AI\Epsagon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.util_measure">
+  <component name="RunManager" selected="Batch.main_sdk_exe_maker">
+    <configuration name="main_sdk_exe_maker" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Epsagon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Karim Gabsi\PycharmProjects\vives\material\Cloud-for-AI\Epsagon" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="main_sdk_exe_maker.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Epsagon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,26 +157,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml.localbuild: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="localbuild" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.main_sdk_exe_maker" />
         <item itemvalue="Python.util_measure" />
         <item itemvalue="Python.main_sdk" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile_util" />
-        <item itemvalue="Docker.docker-compose.yml.localbuild: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,7 @@
       <workItem from="1665404823902" duration="4111000" />
       <workItem from="1665600938292" duration="3179000" />
       <workItem from="1665648612585" duration="4398000" />
-      <workItem from="1665990892163" duration="1174000" />
+      <workItem from="1665990892163" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1665397104992</created>
