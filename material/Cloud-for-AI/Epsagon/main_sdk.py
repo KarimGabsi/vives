@@ -32,6 +32,15 @@ def calculate_mem_usage(stats):
     #exercise
     pass
 
+def calculate_disk_usage(stats):
+    pass
+
+def calcluate_network_usage(stats):
+    pass
+
+def calculate_volume_usage(stats):
+    pass
+
 @epsagon.python_wrapper
 def analyze_containers(client: DockerClient):
     pp = pprint.PrettyPrinter(indent=4)
