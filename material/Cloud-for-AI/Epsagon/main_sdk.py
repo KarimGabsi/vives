@@ -42,7 +42,13 @@ def measure_VM_network(stats):
 
 def measure_VM_volumes(client: DockerClient):
     # measure volumes from Docker Engine
-    pass
+    try:
+        for volume in client.volumes.list():
+            metrics = obj(volume)
+            print(volume)
+
+    except Exception as e:
+        print(e)
 
 def measure_HOST_GPUs():
     # measure HOST Graphic Processing Units
@@ -67,6 +73,7 @@ def analyze_containers(client: DockerClient):
             # pp.pprint(stats)
             cpu_usage = 0
             if ctn.status == "running":
+                measure_VM_volumes(client=client)
                 cpu_usage = measure_VM_cpu(stats)
 
             container = f"{ctn.name} - {ctn.id}"

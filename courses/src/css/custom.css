@@ -33,3 +33,38 @@
 {
   float: right;
 }
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  color: #000000;
+  display: table;
+  text-align: center;
+  font-weight: bold;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  padding: 3px;
+  font-weight: bolder;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffcc00;
+}
+
+table.GeneratedTable .red {
+  background-color: lightcoral;
+}
+table.GeneratedTable .blue {
+  background-color: lightblue;
+}
+table.GeneratedTable .green {
+  background-color: lightgreen;
+}
