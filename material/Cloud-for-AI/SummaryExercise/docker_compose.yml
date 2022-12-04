@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  xor_predict:
+    container_name: xor_predict
+    image: docker_predict:latest
+    build:
+      dockerfile: docker_predict
+    pull_policy: build
+    ports:
+      - 5000:5000
+    volumes:
+      - ModelStorage:/app
+  xor_training:
+    container_name: xor_training
+    build:
+      dockerfile: docker_training
+    image: docker_training:latest
+    pull_policy: build
+    ports:
+      - 5001:5000
+    volumes:
+      - ModelStorage:/app
+volumes:
+  ModelStorage:
+    external: false
+    name: ModelStorage
