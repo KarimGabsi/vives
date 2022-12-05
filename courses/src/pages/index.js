@@ -32,10 +32,10 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      {/*<HomepageHeader />*/}
       <main>
-          <img src="img/Vives_Logo.JPG"/>
-        {/*<HomepageFeatures />*/}
+        <img src="img/Vives_Logo.JPG" alt="cur"
+            style={{ alignSelf: 'center' }}
+        />
       </main>
     </Layout>
   );
