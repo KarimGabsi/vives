@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vives Courses',
@@ -27,7 +29,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -36,6 +38,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars/sidebars.js'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -50,6 +54,15 @@ const config = {
       }),
     ],
   ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
   plugins: [
       [
       '@docusaurus/plugin-content-docs',
@@ -58,6 +71,8 @@ const config = {
         path: 'docs-python',
         routeBasePath: 'docs-python',
         sidebarPath: require.resolve('./sidebars/sidebars-python.js'),
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
       },
     ],
     [
@@ -67,6 +82,8 @@ const config = {
         path: 'docs-intro-to-ai',
         routeBasePath: 'docs-intro-to-ai',
         sidebarPath: require.resolve('./sidebars/sidebars-intro-to-ai.js'),
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
       },
     ],
     [
@@ -76,6 +93,8 @@ const config = {
         path: 'docs-cloud-for-ai',
         routeBasePath: 'docs-cloud-for-ai',
         sidebarPath: require.resolve('./sidebars/sidebars-cloud-for-ai.js'),
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
       },
     ],
     [
@@ -119,57 +138,10 @@ const config = {
             activeBaseRegex: '/docs-cloud-for-ai/',
             label: 'Cloud for AI',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Karim Gabsi`,
       },
       prism: {
