@@ -98,6 +98,17 @@ const config = {
       },
     ],
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-power-bi',
+        path: 'docs-power-bi',
+        routeBasePath: 'docs-power-bi',
+        sidebarPath: require.resolve('./sidebars/sidebars-power-bi.js'),
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
+      },
+    ],
+    [
       '@docusaurus/plugin-ideal-image',
       {
         quality: 70,
@@ -120,12 +131,12 @@ const config = {
           srcDark: 'img/logo_white.jpg',
         },
         items: [
-          {
-            to: '/docs-python/Intro',
-            position: 'left',
-            activeBaseRegex: '/docs-python/',
-            label: 'Python',
-          },
+          // {
+          //   to: '/docs-python/Intro',
+          //   position: 'left',
+          //   activeBaseRegex: '/docs-python/',
+          //   label: 'Python',
+          // },
           {
             to: '/docs-intro-to-ai/Intro',
             position: 'left',
@@ -137,6 +148,12 @@ const config = {
             position: 'left',
             activeBaseRegex: '/docs-cloud-for-ai/',
             label: 'Cloud for AI',
+          },
+          {
+            to: '/docs-power-bi/Intro',
+            position: 'left',
+            activeBaseRegex: '/docs-power-bi/',
+            label: 'Power BI',
           },
         ],
       },
