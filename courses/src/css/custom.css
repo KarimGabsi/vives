@@ -39,24 +39,28 @@ table.GeneratedTable {
   background-color: #ffffff;
   border-collapse: collapse;
   border-width: 2px;
-  border-color: #ffcc00;
+  border-color: #00A000;
   border-style: solid;
   color: #000000;
   display: table;
   text-align: center;
   font-weight: bold;
 }
+table.GeneratedTable caption
+{
+    background-color: #00A000;
+}
 
 table.GeneratedTable td, table.GeneratedTable th {
   border-width: 2px;
-  border-color: #ffcc00;
+  border-color: #00A000;
   border-style: solid;
   padding: 3px;
   font-weight: bolder;
 }
 
 table.GeneratedTable thead {
-  background-color: #ffcc00;
+  background-color: #00A000;
 }
 
 table.GeneratedTable .red {
