@@ -39,7 +39,7 @@ const config = {
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
           remarkPlugins: [math],
-          rehypePlugins: [katex],
+          rehypePlugins: [[katex, {strict: false}]],
         },
         blog: {
           showReadingTime: true,
@@ -72,7 +72,7 @@ const config = {
         routeBasePath: 'docs-python',
         sidebarPath: require.resolve('./sidebars/sidebars-python.js'),
         remarkPlugins: [math],
-        rehypePlugins: [katex],
+        rehypePlugins: [[katex, {strict: false}]],
       },
     ],
     [
@@ -83,7 +83,7 @@ const config = {
         routeBasePath: 'docs-intro-to-ai',
         sidebarPath: require.resolve('./sidebars/sidebars-intro-to-ai.js'),
         remarkPlugins: [math],
-        rehypePlugins: [katex],
+        rehypePlugins: [[katex, {strict: false}]],
       },
     ],
     [
@@ -94,7 +94,7 @@ const config = {
         routeBasePath: 'docs-cloud-for-ai',
         sidebarPath: require.resolve('./sidebars/sidebars-cloud-for-ai.js'),
         remarkPlugins: [math],
-        rehypePlugins: [katex],
+        rehypePlugins: [[katex, {strict: false}]],
       },
     ],
     [
@@ -105,7 +105,7 @@ const config = {
         routeBasePath: 'docs-power-bi',
         sidebarPath: require.resolve('./sidebars/sidebars-power-bi.js'),
         remarkPlugins: [math],
-        rehypePlugins: [katex],
+        rehypePlugins: [[katex, {strict: false}]],
       },
     ],
     [

@@ -9,6 +9,9 @@ https://docusaurus.io/docs/installation
    - **If pulled from GitHub:** <br />
    a) cd courses <br />
    b) npm install
+   c) npm install katex
+   d) npm run build
+   e) num run start
 
 ## Build
 1) cd courses
