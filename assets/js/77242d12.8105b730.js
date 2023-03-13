@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcourses=self.webpackChunkcourses||[]).push([[5953],{7904:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"docs-power-bi"}')}}]);
